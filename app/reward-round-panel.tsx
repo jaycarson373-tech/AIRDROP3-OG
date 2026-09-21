@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-const EPOCH_MS = 15 * 60 * 1000;
+const EPOCH_MS = 5 * 60 * 1000;
 const DISTRIBUTION_WINDOW_MS = 60 * 1000;
 const FIRST_AIRDROP_AT = Date.parse(process.env.NEXT_PUBLIC_FIRST_AIRDROP_AT ?? "2026-06-27T23:55:00.000Z");
 

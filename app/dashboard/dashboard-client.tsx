@@ -81,7 +81,7 @@ const emptyStats: StatsResponse = {
 
 const emptyHolders: HoldersResponse = { topHolders: [] };
 const REFRESH_MS = 12000;
-const EPOCH_MS = 15 * 60 * 1000;
+const EPOCH_MS = 5 * 60 * 1000;
 
 async function getJson<T>(path: string, fallback: T): Promise<T> {
   try {

@@ -88,7 +88,7 @@ Turn those to `true` only when live.
 Reward settings:
 
 ```bash
-EPOCH_MINUTES=15
+EPOCH_MINUTES=5
 ELIGIBILITY_MIN=1000000
 MAX_WALLETS_PER_EPOCH=50
 MAX_HOLDER_PCT=5

@@ -112,7 +112,7 @@ export default function Page() {
                 The <span className="gradient">Pump.fun Airdrop</span> is here.
               </h1>
               <p className="hero-copy">
-                Hold $AIRDROP and earn real PUMP rewards every 15 minutes. Creator fees are claimed, swapped,
+                Hold $AIRDROP and earn real PUMP rewards every five minutes. Creator fees are claimed, swapped,
                 snapshotted, and sent automatically to the top eligible holders.
               </p>
               <div className="hero-actions">
@@ -224,7 +224,7 @@ export default function Page() {
                       <TimerReset size={22} />
                     </div>
                     <h3>Clockwork cadence</h3>
-                    <p>Railway runs the worker every 15 minutes with overlap protection and idempotent epochs.</p>
+                    <p>Railway runs the worker every five minutes with overlap protection and idempotent epochs.</p>
                   </div>
                   <div className="card">
                     <div className="icon">
